@@ -13,8 +13,7 @@
     "jsdoc": "./scripts/jsdoc.sh",
     "gh-pages": "./scripts/gh-pages.sh",
     "prepublish": "npm run build",
-    "postpublish": "./scripts/postpublish.sh",
-    "postinstall": "node ./scripts/build.js lib \"npm run build\""
+    "postpublish": "./scripts/postpublish.sh"
   },
   "homepage": "http://bookshelfjs.org",
   "repository": {
